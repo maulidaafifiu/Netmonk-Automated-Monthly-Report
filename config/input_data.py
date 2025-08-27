@@ -5,13 +5,13 @@ from core.ga_utils import get_all_data_netmonk
 LOOKER_DASHBOARD_URL = 'https://lookerstudio.google.com/reporting/08a17056-be12-41b2-9ee2-dfacf316f548'
 
 # slide template dan folder drive
-TEMPLATE_PRESENTATION_ID = '1Tw-_4ex6tsoGF1jvyzxOuIQRAeszgtqU'
-DESTINATION_FOLDER_ID = '1yNWGo0tNQrUsLXQGUAr-RJNuuaBfHZea'
-SCREENSHOT_FOLDER_ID = '1ExQ_ju9OzSGO_hYBLrcuRjvCBSq30SVz'
+TEMPLATE_PRESENTATION_ID = '1Tw-_4ex6tsoGF1jvyzxOuIQRAeszgtqU' #ubah bagian ini dengan ID template slides
+DESTINATION_FOLDER_ID = '1yNWGo0tNQrUsLXQGUAr-RJNuuaBfHZea' #ubah bagian ini dengan ID folder tujuan penyimpanan output
+SCREENSHOT_FOLDER_ID = '1ExQ_ju9OzSGO_hYBLrcuRjvCBSq30SVz' #ubah bagian ini dengan ID folder penyimpanan screenshot
 
 
 # slide title & placeholder
-FILE_NAME = 'Monthly Report - Juli 2025'
+FILE_NAME = 'Monthly Report - Juli 2025' #ubah bagian ini dengan nama file yang diinginkan
 
 get_data_customer = get_total_customer_netmonk()
 get_data_mau = get_total_mau()

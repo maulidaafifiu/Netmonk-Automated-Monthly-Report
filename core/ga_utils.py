@@ -11,7 +11,7 @@ from google.analytics.data_v1beta.types import DateRange, Metric, RunReportReque
 # AUTHENTICATION
 # ==========================================================
 SCOPES = ["https://www.googleapis.com/auth/analytics.readonly"]
-CLIENT_SECRET_FILE = "credentials_analytics.json"
+CLIENT_SECRET_FILE = "credentials_googleAPI.json" # Ganti nama file credentials dengan yang dimiliki oleh pengguna
 TOKEN_FILE = "token_ga4.pkl"
 
 # Ganti dengan GA4 Property ID masing-masing produk
